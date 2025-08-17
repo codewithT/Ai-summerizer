@@ -3,7 +3,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://ai-summerizer-backend-pdzr.onrender.com/api';
 
 function App() {
   const [transcript, setTranscript] = useState('');
