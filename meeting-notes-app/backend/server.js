@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://free-ai-summarizer.netlify.app'
+  'https://free-ai-summerizer.netlify.app/'
 ];
 
 app.use(cors({
