@@ -13,7 +13,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://free-ai-summarizer.netlify.app',
+  'https://free-ai-summerizer.netlify.app',
   'https://free-ai-summarizer.netlify.app/',
   'https://ai-summerizer-backend-pdzr.onrender.com'
 ];
