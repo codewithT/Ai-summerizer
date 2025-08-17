@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: ai-summerizer-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        fromDatabase:
+          name: mongodb
+          property: connectionString
+      - key: HUGGINGFACE_API_KEY
+        sync: false
+      - key: USER_GMAIL
+        sync: false
+      - key: USER_PASSWORD
+        sync: false
